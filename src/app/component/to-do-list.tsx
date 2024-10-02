@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import { TransformStreamDefaultController } from "stream/web";
+
 
 interface Todo {
     id: number;
@@ -97,7 +97,7 @@ return(
 
                                <button
                                 onClick={() => deleteTodo(todo.id)}
-                                className="px-2 py-1 text-sm bg-slate-600  rounded-lg hover:bg-slate-800"
+                                className="ml-2 px-2 py-1 text-sm bg-slate-600  rounded-lg hover:bg-slate-800"
                                 >Delete
                             </button>
                             </div>
